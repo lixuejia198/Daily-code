@@ -1,0 +1,4 @@
+<!--components/tabs/tabsComponent.wxml-->
+<view class="tabs">
+  <view class="tabs_title">hfkjvk</view>
+</view>

@@ -1,0 +1,68 @@
+/* pages/cate/cate.wxss */
+.category-list {
+  margin-top: 106rpx;
+  display: flex;
+}
+
+.cate-left {
+  background-color: #f7f7f7;
+  width: 210rpx;
+}
+
+.scroll-left-item {
+  position: relative;
+  /* background-color: darkgoldenrod; */
+  /* border-bottom: 1px solid #ccc; */
+  height: 90rpx;
+  width: 100%;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 26rpx;
+}
+
+.scroll-left-item.active {
+  background-color: #fff;
+}
+
+.scroll-left-item.active text {
+  position: absolute;
+  display: block;
+  height: 52rpx;
+  width: 4rpx;
+  top: 16rpx;
+  left: 0;
+  background-color: red;
+}
+
+.cate-right {
+  flex: 1;
+  /* background-color: cornflowerblue; */
+}
+
+.scroll-right-item-title {
+  font-size: 24rpx;
+  font-weight: bold;
+  padding: 15rpx 0;
+  text-align: center;
+}
+
+.scroll-right-item-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.scroll-right-item-each {
+  width: 33.3333%;
+  text-align: center;
+}
+
+.scroll-right-item-each image {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.scroll-right-item-each text {
+  display: block;
+  font-size: 24rpx;
+  text-align: center;
+}

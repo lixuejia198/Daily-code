@@ -1,0 +1,31 @@
+<!--pages/cate/cate.wxml-->
+<view class="container">
+  <!-- 搜索框 -->
+  <Search></Search>
+  <!-- 分类列表 -->
+  <view class="category-list">
+    <!-- 左侧菜单 -->
+    <scroll-view scroll-y="true" style="height: 1000rpx;" class="cate-left">
+      <view class="{{index==currentIndex?'active':''}} scroll-left-item" wx:for="{{cateLeftList}}" wx:key="*this"
+        data-index="{{index}}" bindtap="handelCateClick">{{item.cat_name}} <text></text>
+      </view>
+    </scroll-view>
+    <!-- 右侧菜单 -->
+    <scroll-view scroll-y="true" style="height: 1000rpx;" class="cate-right">
+      <view class="scroll-right-item" wx:for="{{cateRightList}}" wx:key="*this">
+        <view class="scroll-right-item-title">
+          / {{item.cat_name}} /
+        </view>
+        <view class="scroll-right-item-content">
+          <view class="scroll-right-item-each" wx:for="{{item.children}}" wx:key="*this">
+            <!-- 跳转到商品列表页面 -->
+            <navigator url="/pages/goods_list/goods_list?cid={{item.cat_id}}">
+              <image src="{{item.cat_icon}}"></image>
+              <text>{{item.cat_name}}</text>
+            </navigator>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

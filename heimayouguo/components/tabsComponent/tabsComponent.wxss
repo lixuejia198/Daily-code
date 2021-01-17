@@ -1,0 +1,4 @@
+/* components/tabs/tabsComponent.wxss */
+.tabs {
+  margin-top: 106rpx;
+}

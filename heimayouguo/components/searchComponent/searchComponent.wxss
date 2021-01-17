@@ -1,0 +1,26 @@
+/* components/searchComponent/searchComponent.wxss */
+.search {
+  padding: 10px 10px 7px 10px;
+  background-color: #D81E06;
+  color: #000;
+  /* position: relative; */
+  position: fixed;
+  width: 100%;
+  /* 定位不会占位 然后轮播图会覆盖搜索框 所以需要加层级 让它显示 */
+  z-index: 100;
+  box-sizing: border-box;
+}
+
+.search input {
+  height: 72rpx;
+  background-color: #fff;
+  border-radius: 60rpx;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.search icon {
+  position: absolute;
+  top: 19px;
+  left: 152px;
+}

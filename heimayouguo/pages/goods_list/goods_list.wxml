@@ -1,0 +1,6 @@
+<!--pages/goods_list/goods_list.wxml-->
+<view class="container">
+  <!-- 搜索框 -->
+  <Search></Search>
+  <Tabs tabs="{{tabs}}"></Tabs>
+</view>
