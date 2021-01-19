@@ -2,3 +2,20 @@
 .tabs {
   margin-top: 106rpx;
 }
+
+.tabs_title {
+  display: flex;
+}
+
+.title_item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15rpx 0;
+}
+
+.title_item.active {
+  color: #D81E06;
+  border-bottom: 5rpx solid #D81E06;
+}

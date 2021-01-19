@@ -1,6 +1,7 @@
 <!--pages/goods_list/goods_list.wxml-->
 <view class="container">
-  <!-- 搜索框 -->
+  <!-- 搜索框 组件 -->
   <Search></Search>
-  <Tabs tabs="{{tabs}}"></Tabs>
+  <!-- tabs 组件 -->
+  <Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange"></Tabs>
 </view>
