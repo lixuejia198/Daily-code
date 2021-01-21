@@ -6,5 +6,8 @@
       {{item.value}}
     </view>
   </view>
-  <view class="tabs_content"></view>
+  <view class="tabs_content">
+    <!-- 插槽 -->
+    <slot></slot>
+  </view>
 </view>

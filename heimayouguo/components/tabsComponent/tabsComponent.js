@@ -28,9 +28,7 @@ Component({
       let index = e.currentTarget.dataset.index;
       // console.log(index);
       // 触发父组件中的事件
-      this.triggerEvent("tabsItemChange", {
-        index
-      })
+      this.triggerEvent("tabsItemChange", { index })
     }
   }
 })
