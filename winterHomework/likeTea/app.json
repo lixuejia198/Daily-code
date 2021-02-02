@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/goods/goods",
+    "pages/list/list",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "喜茶",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#bababa",
+    "selectedColor": "#000",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_active.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "点单",
+        "iconPath": "images/order.png",
+        "selectedIconPath": "images/order_active.png"
+      },
+      {
+        "pagePath": "pages/goods/goods",
+        "text": "百货",
+        "iconPath": "images/goods.png",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "订单",
+        "iconPath": "/images/list.png",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": ""
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

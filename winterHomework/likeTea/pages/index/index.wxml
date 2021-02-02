@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<!-- 轮播图 -->
+<view class="swiper">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+    <block>
+      <swiper-item>
+        <image src="/images/banner1.png"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/banner2.png"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="/images/banner3.png"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
