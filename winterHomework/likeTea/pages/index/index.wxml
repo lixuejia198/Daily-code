@@ -1,7 +1,8 @@
 <!--index.wxml-->
 <!-- 轮播图 -->
 <view class="swiper">
-  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
+    circular="{{circular}}">
     <block>
       <swiper-item>
         <image src="/images/banner1.png"></image>
@@ -14,4 +15,44 @@
       </swiper-item>
     </block>
   </swiper>
+</view>
+<!-- 门店自取和外卖 -->
+<view class="service">
+  <view class="service_con">
+    <view class="service_con_left">
+      <image src="/images/service_01.png"></image>
+      <view>门店自取</view>
+      <text>下单免排队</text>
+    </view>
+    <view class="service_con_right">
+      <image src="/images/service_02.png"></image>
+      <view>外卖</view>
+      <text>无需接触 送喜到家</text>
+    </view>
+  </view>
+</view>
+<!-- 喜茶百货和阿喜团餐 -->
+<view class="special_offer">
+  <view class="special_offer_left">
+    <view class="special_offer_left_con">
+      <image src="/images/gift.png"></image>
+      <text>喜茶百货</text>
+    </view>
+    <text>新装气泡水畅饮更尽兴</text>
+  </view>
+  <view class="special_offer_right">
+    <view class="special_offer_right_con">
+      <image src="/images/juice.png"></image>
+      <text>阿喜团餐</text>
+    </view>
+    <text>最高享9折火热预定中</text>
+  </view>
+</view>
+<!-- 积分 -->
+<view class="integral">
+  <view class="integral_left">
+    <view></view>
+    <text></text>
+  </view>
+  <view class="integral_right"></view>
 </view>

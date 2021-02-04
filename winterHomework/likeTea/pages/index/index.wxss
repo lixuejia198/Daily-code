@@ -8,3 +8,133 @@ swiper image {
   width: 100%;
   height: 100%;
 }
+
+.service {
+  position: relative;
+  width: 100%;
+  height: 354rpx;
+  background-color: #fdfdfd;
+  padding: 0 32rpx;
+  box-sizing: border-box;
+}
+
+.service_con {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: -46rpx;
+  width: 686rpx;
+  height: 370rpx;
+  padding-top: 44rpx;
+  padding-bottom: 46rpx;
+  box-sizing: border-box;
+  border-radius: 15rpx;
+  background-color: #fff;
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.5);
+}
+
+.service_con_left {
+  width: 100%;
+  /* background-color: chartreuse; */
+  text-align: center;
+  padding-top: 43rpx;
+  box-sizing: border-box;
+  border-right: 2rpx solid #f2f2f2;
+}
+
+.service_con_left image {
+  width: 72rpx;
+  height: 96rpx;
+}
+
+.service_con_left view {
+  font-weight: bold;
+}
+
+.service_con_left text {
+  font-size: 24rpx;
+}
+
+.service_con_right {
+  width: 100%;
+  /* background-color: coral; */
+  text-align: center;
+  padding-top: 42rpx;
+  box-sizing: border-box;
+}
+
+.service_con_right image {
+  width: 88rpx;
+  height: 98rpx;
+}
+
+.service_con_right view {
+  font-weight: bold;
+}
+
+.service_con_right text {
+  font-size: 24rpx;
+}
+
+.special_offer {
+  display: flex;
+  justify-content: space-between;
+  height: 190rpx;
+  padding: 24rpx 32rpx 21rpx 32rpx;
+  box-sizing: border-box;
+}
+
+.special_offer_right,
+.special_offer_left {
+  width: 332rpx;
+  height: 146rpx;
+  background-color: #eaebec;
+  border-radius: 15rpx;
+  text-align: center;
+}
+
+.special_offer_right {
+  padding-top: 35rpx;
+  box-sizing: border-box;
+}
+
+.special_offer_right>text,
+.special_offer_left>text {
+  color: #aaa;
+  font-size: 24rpx;
+}
+
+.special_offer_right_con,
+.special_offer_left_con {
+  display: flex;
+  line-height: 35rpx;
+  justify-content: center;
+}
+
+.special_offer_right_con image {
+  width: 40rpx;
+  height: 36rpx;
+  margin-right: 16rpx;
+}
+
+.special_offer_right_con>text,
+.special_offer_left_con>text {
+  font-size: 28rpx;
+}
+
+.special_offer_left {
+  padding-top: 35rpx;
+  box-sizing: border-box;
+}
+
+.special_offer_left_con image {
+  width: 36rpx;
+  height: 36rpx;
+  margin-right: 16rpx;
+}
+
+.integral {
+  padding: 0 32rpx;
+  height: 132rpx;
+  box-sizing: border-box;
+}
