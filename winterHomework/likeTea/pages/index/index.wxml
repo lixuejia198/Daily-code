@@ -50,9 +50,12 @@
 </view>
 <!-- 积分 -->
 <view class="integral">
-  <view class="integral_left">
-    <view></view>
-    <text></text>
+  <navigator class="integral_left" url="/pages/integral/integral">
+    <view>我的积分 22</view>
+    <text>可兑换喜茶券和丰富灵感周边</text>
+  </navigator>
+  <view class="integral_right">
+    <image src="/images/code.png"></image>
+    <view>会员码</view>
   </view>
-  <view class="integral_right"></view>
 </view>

@@ -4,7 +4,8 @@
     "pages/order/order",
     "pages/goods/goods",
     "pages/list/list",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/integral/integral"
   ],
   "window": {
     "backgroundTextStyle": "light",
