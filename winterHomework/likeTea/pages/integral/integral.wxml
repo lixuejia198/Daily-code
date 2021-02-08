@@ -1,1 +1,37 @@
 <!--pages/integral/integral.wxml-->
+<view class="detail">
+  <view class="detail_left">
+    <view class="title">可用积分</view>
+    <view class="number">22</view>
+    <view class="help">积分明细 <text>|</text> 兑换记录</view>
+  </view>
+  <view class="detail_right">
+    <image src="/images/integral_01.png"></image>
+  </view>
+</view>
+<view class="line"></view>
+<view class="integral_list">
+  <view class="integral_list_item">
+    <image src="/images/integral_02.png"></image>
+    <view class="integral_list_item_title">外卖买二赠一券</view>
+    <view class="integral_list_item_number">2400<text>积分</text></view>
+  </view>
+  <view class="integral_list_item">
+    <image src="/images/integral_03.png"></image>
+    <view class="integral_list_item_title">外卖波波家族券</view>
+    <view class="integral_list_item_number">2800<text>积分</text></view>
+  </view>
+  <view class="integral_list_item">
+    <image src="/images/integral_04.png"></image>
+    <view class="integral_list_item_title">外卖买一赠一券</view>
+    <view class="integral_list_item_number">2800<text>积分</text></view>
+  </view>
+  <view class="integral_list_item">
+    <image src="/images/integral_05.png"></image>
+    <view class="integral_list_item_title">外卖咖啡券</view>
+    <view class="integral_list_item_number">2900<text>积分</text></view>
+  </view>
+</view>
+<view class="more">
+  没有更多了~
+</view>

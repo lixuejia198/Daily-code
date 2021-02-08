@@ -1,1 +1,95 @@
 /* pages/integral/integral.wxss */
+.detail {
+  height: 333rpx;
+  display: flex;
+}
+
+.detail_left {
+  /* background-color: salmon; */
+  width: 60%;
+  padding: 55rpx 0 32rpx 45rpx;
+}
+
+.detail_left .title {
+  font-size: 24rpx;
+  color: #5a5a5a;
+}
+
+.detail_left .number {
+  font-size: 73rpx;
+  font-weight: bold;
+  margin-bottom: 85rpx;
+}
+
+.detail_left .help {
+  font-size: 28rpx;
+}
+
+.detail_left .help>text {
+  display: inline-block;
+  margin: 0 28rpx;
+}
+
+.detail_right {
+  width: 40%;
+  /* background-color: springgreen; */
+  padding-top: 90rpx;
+}
+
+.detail_right image {
+  width: 218rpx;
+  height: 164rpx;
+}
+
+.line {
+  height: 16rpx;
+  background-color: #f2f2f2;
+}
+
+.integral_list {
+  padding: 60rpx 45rpx 0 44rpx;
+  height: 772rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.integral_list_item {
+  width: 50%;
+  height: 272rpx;
+}
+
+.integral_list_item:nth-child(2n) {
+  padding-left: 22rpx;
+  box-sizing: border-box;
+}
+
+.integral_list_item image {
+  width: 297rpx;
+  height: 162rpx;
+}
+
+.integral_list_item_title {
+  margin-top: 22rpx;
+  margin-bottom: 6rpx;
+  font-size: 28rpx;
+}
+
+.integral_list_item_number {
+  color: #ae7631;
+  font-size: 34rpx;
+  font-weight: bold;
+}
+
+.integral_list_item_number>text {
+  display: inline-block;
+  font-size: 24rpx;
+  color: #aaa;
+  margin-left: 10rpx;
+}
+
+.more {
+  text-align: center;
+  font-size: 24rpx;
+  color: #aaa;
+}
